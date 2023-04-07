@@ -33,4 +33,8 @@ public class Basket {
         allProductsAtBasket.add(product);
     }
 
+    public void clear() {
+        this.userBasket.clear();
+        allProductsAtBasket.clear();
+    }
 }

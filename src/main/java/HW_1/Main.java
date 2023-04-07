@@ -65,8 +65,16 @@ public class Main {
         System.out.println();
         System.out.println("Оставшиеся товары в магазине:");
         System.out.println(Product.allProductsAtStore);
+        User.printAllUsers();
+        user2.basket.clear();
+        System.out.println();
+        User.printAllUsers();
+
 
     }
+
+
+
 
 
 }
