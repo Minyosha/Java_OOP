@@ -9,6 +9,6 @@ if [ -e $DELDIR ]
                 rm -v *.bak *.tmp *.backup
                 echo 'Файлы *.bak *.tmp *.backup успешно удалены'
         else
-                echo 'Указанная дирректории не существует'
+                echo 'Указанной дирректории не существует'
                 exit 2
 fi
